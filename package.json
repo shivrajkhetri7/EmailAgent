@@ -1,0 +1,29 @@
+{
+  "name": "emailagent",
+  "version": "1.0.0",
+  "description": "\"this is an auto mail send agent\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivrajkhetri7/EmailAgent.git"
+  },
+  "keywords": [
+    "AI",
+    "AGENT"
+  ],
+  "author": "shivraj khetri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivrajkhetri7/EmailAgent/issues"
+  },
+  "homepage": "https://github.com/shivrajkhetri7/EmailAgent#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
+    "nodemailer": "^6.10.0",
+    "readline-sync": "^1.4.10"
+  }
+}
